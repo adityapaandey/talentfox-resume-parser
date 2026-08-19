@@ -1,0 +1,15 @@
+{
+  "filename": "styles.css",
+  "path": "frontend\\styles.css",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "137598b4": {
+      "value": "use this logo and modify the frontend accordingly with white and olive green colour also attach the url in the website\nalso check each functionality working as expected like filtering and multiple uploads\nand don't do documentation irrevelantly"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

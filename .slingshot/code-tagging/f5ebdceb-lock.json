@@ -1,0 +1,366 @@
+{
+  "backend-java\\src\\main\\java\\com\\talentfor\\resumeparser\\service\\ResumeParserService.java": {
+    "filename": "ResumeParserService.java",
+    "path": "backend-java\\src\\main\\java\\com\\talentfor\\resumeparser\\service\\ResumeParserService.java",
+    "version": "1.2",
+    "contextFile": "f5ebdceb-context.json",
+    "chunks": {
+      "e1cf56": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142783,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0fce6421"
+        },
+        "hash": "9516bff2",
+        "messageId": "system_ed319f20-9bc9-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 6:03:03 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "182": {
+        "chunkId": "e1cf56",
+        "hash": "b4dc3cce",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "e1cf56",
+        "hash": "ee9159a5",
+        "encoded": "*%20Extract%20education%20information",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "e1cf56",
+        "hash": "9a77db9b",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "e1cf56",
+        "hash": "b9ea8bdc",
+        "encoded": "private%20String%20extractEducation(String%20text)%20%7B",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "e1cf56",
+        "hash": "beca8b1a",
+        "encoded": "String%5B%5D%20lines%20=%20text.split(%22%5C%5Cn%22);",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "e1cf56",
+        "hash": "d93bd5a6",
+        "encoded": "List%3CString%3E%20educationInfo%20=%20new%20ArrayList%3C%3E();",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "e1cf56",
+        "hash": "2e7454da",
+        "encoded": "boolean%20inEducationSection%20=%20false;",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "e1cf56",
+        "hash": "a69cb4b9",
+        "encoded": "for%20(int%20i%20=%200;%20i%20%3C%20lines.length;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "e1cf56",
+        "hash": "e6a8d988",
+        "encoded": "String%20line%20=%20lines%5Bi%5D.trim();",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "e1cf56",
+        "hash": "85a223f4",
+        "encoded": "String%20lowerLine%20=%20line.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "e1cf56",
+        "hash": "7ca6b6e8",
+        "encoded": "//%20Check%20for%20education%20section%20header",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "e1cf56",
+        "hash": "e1359501",
+        "encoded": "if%20(lowerLine.matches(%22%5Eeducation%5C%5Cs*$%22)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "e1cf56",
+        "hash": "ae51b95f",
+        "encoded": "lowerLine.matches(%22%5Eacademic%5C%5Cs*$%22)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "e1cf56",
+        "hash": "43f7c6e7",
+        "encoded": "lowerLine.matches(%22%5Equalifications?%5C%5Cs*$%22))%20%7B",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "e1cf56",
+        "hash": "ae9c5c61",
+        "encoded": "inEducationSection%20=%20true;",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "e1cf56",
+        "hash": "d41e5d7e",
+        "encoded": "continue;",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "e1cf56",
+        "hash": "5c0d681d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "e1cf56",
+        "hash": "84f4803b",
+        "encoded": "//%20Stop%20at%20next%20section",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "e1cf56",
+        "hash": "db5bd7a6",
+        "encoded": "if%20(inEducationSection%20&&%20(lowerLine.matches(%22%5Eexperience%5C%5Cs*$%22)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "e1cf56",
+        "hash": "9d7e01f8",
+        "encoded": "lowerLine.matches(%22%5Ework%5C%5Cs+experience%5C%5Cs*$%22)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "e1cf56",
+        "hash": "c5f35efb",
+        "encoded": "lowerLine.matches(%22%5Eprojects?%5C%5Cs*$%22)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "e1cf56",
+        "hash": "5fe0e21f",
+        "encoded": "lowerLine.matches(%22%5Eskills?%5C%5Cs*$%22)))%20%7B",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "e1cf56",
+        "hash": "d452131e",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "e1cf56",
+        "hash": "5b361ecf",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "e1cf56",
+        "hash": "e9fc2536",
+        "encoded": "//%20Extract%20education%20entries",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "e1cf56",
+        "hash": "5b27f31e",
+        "encoded": "if%20(inEducationSection%20&&%20!line.isEmpty())%20%7B",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "e1cf56",
+        "hash": "a4e2e636",
+        "encoded": "//%20Add%20complete%20lines%20with%20degree%20info",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "e1cf56",
+        "hash": "ebda13aa",
+        "encoded": "if%20(educationInfo.size()%20%3C%203%20&&%20line.length()%20%3E%205%20&&%20line.length()%20%3C%20200)%20%7B",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "e1cf56",
+        "hash": "0238d7d6",
+        "encoded": "educationInfo.add(line);",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "e1cf56",
+        "hash": "8da2b88b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "e1cf56",
+        "hash": "fe5f3147",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "e1cf56",
+        "hash": "7e877089",
+        "encoded": "//%20Look%20for%20education%20keywords%20anywhere",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "e1cf56",
+        "hash": "c5a4c7ba",
+        "encoded": "for%20(String%20keyword%20:%20EDUCATION_KEYWORDS)%20%7B",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "e1cf56",
+        "hash": "e98252a3",
+        "encoded": "Pattern%20pattern%20=%20Pattern.compile(%22%5C%5Cb%22%20+%20keyword%20+%20%22%5C%5Cb%22,%20Pattern.CASE_INSENSITIVE);",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "e1cf56",
+        "hash": "cb37a695",
+        "encoded": "if%20(pattern.matcher(line).find()%20&&%20line.length()%20%3E%2010%20&&%20line.length()%20%3C%20200)%20%7B",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "e1cf56",
+        "hash": "c1f792a3",
+        "encoded": "if%20(!educationInfo.contains(line))%20%7B",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "e1cf56",
+        "hash": "228b1433",
+        "encoded": "educationInfo.add(line);",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "e1cf56",
+        "hash": "75bbcadd",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "e1cf56",
+        "hash": "eed3bd68",
+        "encoded": "break;",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "e1cf56",
+        "hash": "ed507790",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "e1cf56",
+        "hash": "e196358d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "e1cf56",
+        "hash": "30e86338",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "e1cf56",
+        "hash": "242eb76e",
+        "encoded": "if%20(educationInfo.size()%20%3E=%203)%20break;",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "e1cf56",
+        "hash": "6f19d2d6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "e1cf56",
+        "hash": "4c767390",
+        "encoded": "if%20(educationInfo.isEmpty())%20%7B",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "e1cf56",
+        "hash": "ee1800b1",
+        "encoded": "return%20null;",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "e1cf56",
+        "hash": "29109e1d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "e1cf56",
+        "hash": "6b5628da",
+        "encoded": "//%20Clean%20and%20format%20education%20entries",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "e1cf56",
+        "hash": "da23a1d4",
+        "encoded": "List%3CString%3E%20cleanedEducation%20=%20educationInfo.stream()",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "e1cf56",
+        "hash": "2efc95f1",
+        "encoded": ".map(String::trim)",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "e1cf56",
+        "hash": "1be2de6d",
+        "encoded": ".filter(s%20-%3E%20!s.isEmpty())",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "e1cf56",
+        "hash": "cb2d3327",
+        "encoded": ".distinct()",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "e1cf56",
+        "hash": "7e1f46fb",
+        "encoded": ".limit(3)",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "e1cf56",
+        "hash": "de054f64",
+        "encoded": ".collect(Collectors.toList());",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "e1cf56",
+        "hash": "ca15178d",
+        "encoded": "return%20String.join(%22%20%7C%20%22,%20cleanedEducation);",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "e1cf56",
+        "hash": "71b20a14",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

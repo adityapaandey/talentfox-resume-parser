@@ -1,0 +1,18 @@
+{
+  "filename": "app.js",
+  "path": "frontend\\app.js",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "62a8c9cc": {
+      "value": "create a frontend more interactive for Talentfox HR solution and don't make any documentation changes and also just update the frontend"
+    },
+    "137598b4": {
+      "value": "use this logo and modify the frontend accordingly with white and olive green colour also attach the url in the website\nalso check each functionality working as expected like filtering and multiple uploads\nand don't do documentation irrevelantly"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

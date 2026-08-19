@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: talentfox-resume-parser
+    env: java
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/resume-parser-1.0.0.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
+      - key: PORT
+        value: 8080
+    plan: free

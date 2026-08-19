@@ -1,0 +1,457 @@
+{
+  "backend-java\\pom.xml": {
+    "filename": "pom.xml",
+    "path": "backend-java\\pom.xml",
+    "version": "1.2",
+    "contextFile": "d5a8f306-context.json",
+    "chunks": {
+      "781276": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787141056,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "fa39e1ff"
+        },
+        "hash": "545241bc",
+        "messageId": "system_146d03a0-9bc4-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:34:16 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "a15515": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787139930,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "89af6844"
+        },
+        "hash": "41f238c7",
+        "messageId": "system_3a1c7eb0-9bc3-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:15:30 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "9fc46d": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787140110,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "89af6844"
+        },
+        "hash": "1bf67ed0",
+        "messageId": "system_3a1c7eb0-9bc3-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:18:30 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "31d7b5": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787140118,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "89af6844"
+        },
+        "hash": "21922e71",
+        "messageId": "system_3a1c7eb0-9bc3-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:18:38 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "477bb8": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787140127,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "89af6844"
+        },
+        "hash": "270e157e",
+        "messageId": "system_3a1c7eb0-9bc3-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:18:47 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "89411d": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787140209,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "fa39e1ff"
+        },
+        "hash": "5b7628f3",
+        "messageId": "system_146d03a0-9bc4-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:20:09 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "20": {
+        "chunkId": "781276",
+        "hash": "0f35b062",
+        "encoded": "%3Cproperties%3E",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "781276",
+        "hash": "e19da9ad",
+        "encoded": "%3Cjava.version%3E17%3C/java.version%3E",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "781276",
+        "hash": "fd6b049c",
+        "encoded": "%3Cmaven.compiler.source%3E17%3C/maven.compiler.source%3E",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "781276",
+        "hash": "0cb68ace",
+        "encoded": "%3Cmaven.compiler.target%3E17%3C/maven.compiler.target%3E",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "781276",
+        "hash": "d0ce4f14",
+        "encoded": "%3Cproject.build.sourceEncoding%3EUTF-8%3C/project.build.sourceEncoding%3E",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "781276",
+        "hash": "3e986ee8",
+        "encoded": "%3C/properties%3E",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "31d7b5",
+        "hash": "12579e99",
+        "encoded": "%3Cjava.version%3E21%3C/java.version%3E",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "31d7b5",
+        "hash": "1a58a509",
+        "encoded": "%3Cmaven.compiler.source%3E21%3C/maven.compiler.source%3E",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "31d7b5",
+        "hash": "1a66ca75",
+        "encoded": "%3Cmaven.compiler.target%3E21%3C/maven.compiler.target%3E",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "31d7b5",
+        "hash": "90644589",
+        "encoded": "%3Cproject.build.sourceEncoding%3EUTF-8%3C/project.build.sourceEncoding%3E",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "31d7b5",
+        "hash": "0bcab64a",
+        "encoded": "%3C/properties%3E",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "477bb8",
+        "hash": "9c577314",
+        "encoded": "%3C!--%20PDF%20Processing%20-%20Apache%20PDFBox%20--%3E",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "477bb8",
+        "hash": "e04372a8",
+        "encoded": "%3Cdependency%3E",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "477bb8",
+        "hash": "122dd51c",
+        "encoded": "%3CgroupId%3Eorg.apache.pdfbox%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "477bb8",
+        "hash": "96b57e03",
+        "encoded": "%3CartifactId%3Epdfbox%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "477bb8",
+        "hash": "34d5de60",
+        "encoded": "%3Cversion%3E2.0.30%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "477bb8",
+        "hash": "3271e26b",
+        "encoded": "%3C/dependency%3E",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "89411d",
+        "hash": "8f4f5bda",
+        "encoded": "%3Cplugin%3E",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "89411d",
+        "hash": "aefb7d3a",
+        "encoded": "%3CgroupId%3Eorg.apache.maven.plugins%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "89411d",
+        "hash": "3f3b2f28",
+        "encoded": "%3CartifactId%3Emaven-compiler-plugin%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "89411d",
+        "hash": "b81da759",
+        "encoded": "%3Cversion%3E3.11.0%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "89411d",
+        "hash": "273c8b4d",
+        "encoded": "%3Cconfiguration%3E",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "89411d",
+        "hash": "bfb120f5",
+        "encoded": "%3Crelease%3E21%3C/release%3E",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "89411d",
+        "hash": "33bde767",
+        "encoded": "%3CannotationProcessorPaths%3E",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "89411d",
+        "hash": "c3477b48",
+        "encoded": "%3Cpath%3E",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "89411d",
+        "hash": "6579630f",
+        "encoded": "%3CgroupId%3Eorg.projectlombok%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "89411d",
+        "hash": "d158c981",
+        "encoded": "%3CartifactId%3Elombok%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "89411d",
+        "hash": "6ba65648",
+        "encoded": "%3Cversion%3E1.18.30%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "89411d",
+        "hash": "e6458fc0",
+        "encoded": "%3C/path%3E",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "89411d",
+        "hash": "1a7a9ad5",
+        "encoded": "%3C/annotationProcessorPaths%3E",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "89411d",
+        "hash": "93d83c4c",
+        "encoded": "%3C/configuration%3E",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "89411d",
+        "hash": "30d3390b",
+        "encoded": "%3C/plugin%3E",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "9fc46d",
+        "hash": "9215fee7",
+        "encoded": "%3Cplugin%3E",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "9fc46d",
+        "hash": "af854de7",
+        "encoded": "%3CgroupId%3Eorg.apache.maven.plugins%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "9fc46d",
+        "hash": "ad6fdfcd",
+        "encoded": "%3CartifactId%3Emaven-compiler-plugin%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "9fc46d",
+        "hash": "79c5655a",
+        "encoded": "%3Cversion%3E3.12.1%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "9fc46d",
+        "hash": "dae60f2c",
+        "encoded": "%3Cconfiguration%3E",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "9fc46d",
+        "hash": "04c3816e",
+        "encoded": "%3Csource%3E21%3C/source%3E",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "9fc46d",
+        "hash": "99c2dbe1",
+        "encoded": "%3Ctarget%3E21%3C/target%3E",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "9fc46d",
+        "hash": "502f4db1",
+        "encoded": "%3CannotationProcessorPaths%3E",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "9fc46d",
+        "hash": "3197171c",
+        "encoded": "%3Cpath%3E",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "9fc46d",
+        "hash": "13b3af4d",
+        "encoded": "%3CgroupId%3Eorg.projectlombok%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "9fc46d",
+        "hash": "26944d43",
+        "encoded": "%3CartifactId%3Elombok%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "9fc46d",
+        "hash": "41ad7c7f",
+        "encoded": "%3Cversion%3E1.18.30%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "9fc46d",
+        "hash": "926fd235",
+        "encoded": "%3C/path%3E",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "9fc46d",
+        "hash": "0fd2ab81",
+        "encoded": "%3C/annotationProcessorPaths%3E",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "9fc46d",
+        "hash": "6ea4f5b7",
+        "encoded": "%3C/configuration%3E",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "9fc46d",
+        "hash": "67749e38",
+        "encoded": "%3C/plugin%3E",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "a15515",
+        "hash": "d0156c83",
+        "encoded": "%3CgroupId%3Eorg.apache.maven.plugins%3C/groupId%3E",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "a15515",
+        "hash": "e474065a",
+        "encoded": "%3CartifactId%3Emaven-compiler-plugin%3C/artifactId%3E",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "a15515",
+        "hash": "8dfecbe4",
+        "encoded": "%3Cversion%3E3.12.1%3C/version%3E",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "a15515",
+        "hash": "ef7e15f2",
+        "encoded": "%3Cconfiguration%3E",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "a15515",
+        "hash": "0f47f067",
+        "encoded": "%3Csource%3E25%3C/source%3E",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "a15515",
+        "hash": "427bac94",
+        "encoded": "%3Ctarget%3E25%3C/target%3E",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "a15515",
+        "hash": "b2a18a5f",
+        "encoded": "%3C/configuration%3E",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "a15515",
+        "hash": "1c7b0722",
+        "encoded": "%3C/plugin%3E",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 111
+  }
+}

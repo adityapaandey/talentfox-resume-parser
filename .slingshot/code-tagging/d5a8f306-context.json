@@ -1,0 +1,18 @@
+{
+  "filename": "pom.xml",
+  "path": "backend-java\\pom.xml",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "89af6844": {
+      "value": "convert the python code into java , jdk 25 is installed in this system and make sure it runs in this system"
+    },
+    "fa39e1ff": {
+      "value": "don't create multiple documents, just fix the application and make it run"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

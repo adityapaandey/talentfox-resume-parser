@@ -1,0 +1,39 @@
+# Backend Java
+backend-java/target/
+backend-java/.mvn/
+backend-java/mvnw
+backend-java/mvnw.cmd
+backend-java/uploads/
+backend-java/*.log
+backend-java/.settings/
+backend-java/.project
+backend-java/.classpath
+
+# Gradle
+backend-java/gradle-8.5/
+backend-java/.gradle/
+backend-java/build/
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak

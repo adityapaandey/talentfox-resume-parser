@@ -1,0 +1,150 @@
+{
+  "frontend\\index.html": {
+    "filename": "index.html",
+    "path": "frontend\\index.html",
+    "version": "1.2",
+    "contextFile": "28cd4ffa-context.json",
+    "chunks": {
+      "de72a2": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142305,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "6b9d143b",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:05 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "6078e3": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142386,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "04f3c608",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:56:26 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "12": {
+        "chunkId": "de72a2",
+        "hash": "e1e9c2f9",
+        "encoded": "%3Cdiv%20class=%22sidebar-header%22%3E",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "de72a2",
+        "hash": "d4fb0415",
+        "encoded": "%3Cdiv%20class=%22logo%22%3E",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "de72a2",
+        "hash": "fb22c3c9",
+        "encoded": "%3Cimg%20src=%22logo.png%22%20alt=%22TalentFox%22%20style=%22height:%2080px;%20object-fit:%20contain;%22%3E",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "de72a2",
+        "hash": "8bd17227",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "de72a2",
+        "hash": "cedde671",
+        "encoded": "%3Cbutton%20class=%22sidebar-toggle%22%20onclick=%22toggleSidebar()%22%3E",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "de72a2",
+        "hash": "65c7a516",
+        "encoded": "%3Ci%20class=%22fas%20fa-bars%22%3E%3C/i%3E",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "de72a2",
+        "hash": "494ce1e7",
+        "encoded": "%3C/button%3E",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "de72a2",
+        "hash": "88236320",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "275": {
+        "chunkId": "6078e3",
+        "hash": "dfc884d6",
+        "encoded": "%3C!--%20Toast%20Notification%20--%3E",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "6078e3",
+        "hash": "66c22ca8",
+        "encoded": "%3Cdiv%20id=%22toast%22%20class=%22toast%22%3E%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "6078e3",
+        "hash": "1d961f21",
+        "encoded": "%3C!--%20Footer%20--%3E",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "6078e3",
+        "hash": "9d54967e",
+        "encoded": "%3Cfooter%20class=%22app-footer%22%3E",
+        "prevChunkIds": []
+      },
+      "280": {
+        "chunkId": "6078e3",
+        "hash": "a4bb1cd0",
+        "encoded": "%3Cp%3E%C2%A9%202026%20TalentFox%20-%20Your%20Recruitment%20Partner%20%7C%20%3Ca%20href=%22https://www.talentfox.com%22%20target=%22_blank%22%3Ewww.talentfox.com%3C/a%3E%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "6078e3",
+        "hash": "e3e43a06",
+        "encoded": "%3C/footer%3E",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "6078e3",
+        "hash": "de6974a4",
+        "encoded": "%3Cscript%20src=%22app.js%22%3E%3C/script%3E",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "6078e3",
+        "hash": "dcf07257",
+        "encoded": "%3C/body%3E",
+        "prevChunkIds": []
+      },
+      "285": {
+        "chunkId": "6078e3",
+        "hash": "a2e36e87",
+        "encoded": "%3C/html%3E",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

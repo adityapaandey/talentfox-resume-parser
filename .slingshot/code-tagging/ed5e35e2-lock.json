@@ -1,0 +1,697 @@
+{
+  "frontend\\styles.css": {
+    "filename": "styles.css",
+    "path": "frontend\\styles.css",
+    "version": "1.2",
+    "contextFile": "ed5e35e2-context.json",
+    "chunks": {
+      "3de86d": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142302,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "af5a24b1",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:02 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "51457e": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142302,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "63cf5f8c",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:02 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "d2795f": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142322,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "8ed52ea8",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "f3b088": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142322,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "e3084d06",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:22 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "3c09fd": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142329,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "1e6f977d",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:29 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "a9104c": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142335,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "8e236be6",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:35 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "29764c": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142395,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "f733e13e",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:56:35 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "51457e",
+        "hash": "223b34e1",
+        "encoded": ":root%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "51457e",
+        "hash": "38769898",
+        "encoded": "--primary:%20#6b7c3b;",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "51457e",
+        "hash": "a0085f66",
+        "encoded": "--primary-dark:%20#556030;",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "51457e",
+        "hash": "aab84b74",
+        "encoded": "--secondary:%20#8a9a5a;",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "51457e",
+        "hash": "4dc257f1",
+        "encoded": "--success:%20#10b981;",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "51457e",
+        "hash": "262f031b",
+        "encoded": "--danger:%20#ef4444;",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "51457e",
+        "hash": "e5c832af",
+        "encoded": "--warning:%20#f59e0b;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "51457e",
+        "hash": "1107f1b3",
+        "encoded": "--info:%20#3b82f6;",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "51457e",
+        "hash": "57f0c134",
+        "encoded": "--dark:%20#2d3319;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "51457e",
+        "hash": "9e60cfad",
+        "encoded": "--light:%20#fafaf8;",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "51457e",
+        "hash": "ada9fd09",
+        "encoded": "--sidebar-width:%20280px;",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "51457e",
+        "hash": "15651815",
+        "encoded": "--header-height:%2070px;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "51457e",
+        "hash": "8efad1aa",
+        "encoded": "--border-radius:%2012px;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "51457e",
+        "hash": "696ddb92",
+        "encoded": "--transition:%20all%200.3s%20cubic-bezier(0.4,%200,%200.2,%201);",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "51457e",
+        "hash": "66d45cc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "3de86d",
+        "hash": "d2d134cf",
+        "encoded": ".sidebar%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "3de86d",
+        "hash": "d6e9626b",
+        "encoded": "position:%20fixed;",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "3de86d",
+        "hash": "3b71b3d6",
+        "encoded": "left:%200;",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "3de86d",
+        "hash": "fa346687",
+        "encoded": "top:%200;",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "3de86d",
+        "hash": "6e3a88fd",
+        "encoded": "width:%20var(--sidebar-width);",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "3de86d",
+        "hash": "58448022",
+        "encoded": "height:%20100vh;",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "3de86d",
+        "hash": "3aed405d",
+        "encoded": "background:%20linear-gradient(180deg,%20#6b7c3b%200%25,%20#556030%20100%25);",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "f3b088",
+        "hash": "009853dd",
+        "encoded": ".logo%20%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "f3b088",
+        "hash": "73befa8e",
+        "encoded": "display:%20flex;",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "f3b088",
+        "hash": "9ea99b2c",
+        "encoded": "align-items:%20center;",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "f3b088",
+        "hash": "0b740038",
+        "encoded": "gap:%2012px;",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "f3b088",
+        "hash": "9beb6f6c",
+        "encoded": "background:%20white;",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "f3b088",
+        "hash": "bef63bb0",
+        "encoded": "padding:%2010px;",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "f3b088",
+        "hash": "540d1a66",
+        "encoded": "border-radius:%208px;",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "f3b088",
+        "hash": "f4e179c9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "f3b088",
+        "hash": "8adce866",
+        "encoded": ".logo%20img%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "f3b088",
+        "hash": "deadbb0f",
+        "encoded": "max-width:%20100%25;",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "f3b088",
+        "hash": "646a8e84",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "f3b088",
+        "hash": "20051a41",
+        "encoded": ".logo%20h2%20%7B",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "f3b088",
+        "hash": "4baf77bf",
+        "encoded": "font-size:%2024px;",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "f3b088",
+        "hash": "0bbcb173",
+        "encoded": "font-weight:%20700;",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "f3b088",
+        "hash": "bf862585",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3de86d",
+        "hash": "1a9042c2",
+        "encoded": "padding:%2020px;",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "3de86d",
+        "hash": "68ba062d",
+        "encoded": "z-index:%201000;",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "3de86d",
+        "hash": "c54b1443",
+        "encoded": "transition:%20var(--transition);",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "3de86d",
+        "hash": "adf111f0",
+        "encoded": "box-shadow:%204px%200%2020px%20rgba(0,%200,%200,%200.1);",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "3de86d",
+        "hash": "ae47b750",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "d2795f",
+        "hash": "2fbdaab7",
+        "encoded": ".upload-icon-wrapper%20%7B",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "d2795f",
+        "hash": "17fd5024",
+        "encoded": "width:%20100px;",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "d2795f",
+        "hash": "52ef5ba7",
+        "encoded": "height:%20100px;",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "d2795f",
+        "hash": "69031752",
+        "encoded": "margin:%200%20auto%2020px;",
+        "prevChunkIds": []
+      },
+      "373": {
+        "chunkId": "d2795f",
+        "hash": "435a710b",
+        "encoded": "background:%20linear-gradient(135deg,%20#6b7c3b%200%25,%20#8a9a5a%20100%25);",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "d2795f",
+        "hash": "d238b4b4",
+        "encoded": "border-radius:%2050%25;",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "d2795f",
+        "hash": "db48d1e4",
+        "encoded": "display:%20flex;",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "d2795f",
+        "hash": "5fe7f3e5",
+        "encoded": "align-items:%20center;",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "d2795f",
+        "hash": "b47741ec",
+        "encoded": "justify-content:%20center;",
+        "prevChunkIds": []
+      },
+      "378": {
+        "chunkId": "d2795f",
+        "hash": "749a6433",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "649": {
+        "chunkId": "3c09fd",
+        "hash": "605be3d6",
+        "encoded": ".candidate-avatar%20%7B",
+        "prevChunkIds": []
+      },
+      "650": {
+        "chunkId": "3c09fd",
+        "hash": "4a9a789e",
+        "encoded": "width:%2060px;",
+        "prevChunkIds": []
+      },
+      "651": {
+        "chunkId": "3c09fd",
+        "hash": "ba3e582d",
+        "encoded": "height:%2060px;",
+        "prevChunkIds": []
+      },
+      "652": {
+        "chunkId": "3c09fd",
+        "hash": "3c12ba51",
+        "encoded": "border-radius:%2050%25;",
+        "prevChunkIds": []
+      },
+      "653": {
+        "chunkId": "3c09fd",
+        "hash": "a498954a",
+        "encoded": "background:%20linear-gradient(135deg,%20#6b7c3b%200%25,%20#8a9a5a%20100%25);",
+        "prevChunkIds": []
+      },
+      "654": {
+        "chunkId": "3c09fd",
+        "hash": "f77bf181",
+        "encoded": "display:%20flex;",
+        "prevChunkIds": []
+      },
+      "655": {
+        "chunkId": "3c09fd",
+        "hash": "940663b5",
+        "encoded": "align-items:%20center;",
+        "prevChunkIds": []
+      },
+      "656": {
+        "chunkId": "3c09fd",
+        "hash": "84065783",
+        "encoded": "justify-content:%20center;",
+        "prevChunkIds": []
+      },
+      "657": {
+        "chunkId": "3c09fd",
+        "hash": "5e743b4a",
+        "encoded": "color:%20white;",
+        "prevChunkIds": []
+      },
+      "658": {
+        "chunkId": "3c09fd",
+        "hash": "f47f9d01",
+        "encoded": "font-size:%2024px;",
+        "prevChunkIds": []
+      },
+      "659": {
+        "chunkId": "3c09fd",
+        "hash": "ff9266b9",
+        "encoded": "font-weight:%20700;",
+        "prevChunkIds": []
+      },
+      "660": {
+        "chunkId": "3c09fd",
+        "hash": "7fdc4d1a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "703": {
+        "chunkId": "a9104c",
+        "hash": "91f177d0",
+        "encoded": ".skill-badge%20%7B",
+        "prevChunkIds": []
+      },
+      "704": {
+        "chunkId": "a9104c",
+        "hash": "0573c06e",
+        "encoded": "background:%20rgba(107,%20124,%2059,%200.1);",
+        "prevChunkIds": []
+      },
+      "705": {
+        "chunkId": "a9104c",
+        "hash": "8cfa644c",
+        "encoded": "color:%20var(--primary);",
+        "prevChunkIds": []
+      },
+      "706": {
+        "chunkId": "a9104c",
+        "hash": "de6cc3ee",
+        "encoded": "padding:%206px%2012px;",
+        "prevChunkIds": []
+      },
+      "707": {
+        "chunkId": "a9104c",
+        "hash": "74ba7fe9",
+        "encoded": "border-radius:%2020px;",
+        "prevChunkIds": []
+      },
+      "708": {
+        "chunkId": "a9104c",
+        "hash": "d75cbaa0",
+        "encoded": "font-size:%2012px;",
+        "prevChunkIds": []
+      },
+      "709": {
+        "chunkId": "a9104c",
+        "hash": "f78abe2b",
+        "encoded": "font-weight:%20600;",
+        "prevChunkIds": []
+      },
+      "710": {
+        "chunkId": "a9104c",
+        "hash": "5b3a1742",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "925": {
+        "chunkId": "29764c",
+        "hash": "20a07960",
+        "encoded": "/*%20Footer%20*/",
+        "prevChunkIds": []
+      },
+      "926": {
+        "chunkId": "29764c",
+        "hash": "1e601456",
+        "encoded": ".app-footer%20%7B",
+        "prevChunkIds": []
+      },
+      "927": {
+        "chunkId": "29764c",
+        "hash": "631aebe6",
+        "encoded": "background:%20var(--primary);",
+        "prevChunkIds": []
+      },
+      "928": {
+        "chunkId": "29764c",
+        "hash": "1cb7c9d3",
+        "encoded": "color:%20white;",
+        "prevChunkIds": []
+      },
+      "929": {
+        "chunkId": "29764c",
+        "hash": "4cb2f890",
+        "encoded": "text-align:%20center;",
+        "prevChunkIds": []
+      },
+      "930": {
+        "chunkId": "29764c",
+        "hash": "d0907d41",
+        "encoded": "padding:%2020px;",
+        "prevChunkIds": []
+      },
+      "931": {
+        "chunkId": "29764c",
+        "hash": "c4474c88",
+        "encoded": "margin-left:%20var(--sidebar-width);",
+        "prevChunkIds": []
+      },
+      "932": {
+        "chunkId": "29764c",
+        "hash": "6a216842",
+        "encoded": "font-size:%2014px;",
+        "prevChunkIds": []
+      },
+      "933": {
+        "chunkId": "29764c",
+        "hash": "5991d7fc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "935": {
+        "chunkId": "29764c",
+        "hash": "de11193b",
+        "encoded": ".app-footer%20a%20%7B",
+        "prevChunkIds": []
+      },
+      "936": {
+        "chunkId": "29764c",
+        "hash": "4cd249c3",
+        "encoded": "color:%20white;",
+        "prevChunkIds": []
+      },
+      "937": {
+        "chunkId": "29764c",
+        "hash": "a3c12aa2",
+        "encoded": "text-decoration:%20none;",
+        "prevChunkIds": []
+      },
+      "938": {
+        "chunkId": "29764c",
+        "hash": "b692bb5d",
+        "encoded": "font-weight:%20600;",
+        "prevChunkIds": []
+      },
+      "939": {
+        "chunkId": "29764c",
+        "hash": "d36f0ff0",
+        "encoded": "border-bottom:%202px%20solid%20white;",
+        "prevChunkIds": []
+      },
+      "940": {
+        "chunkId": "29764c",
+        "hash": "6ec12f1b",
+        "encoded": "padding-bottom:%202px;",
+        "prevChunkIds": []
+      },
+      "941": {
+        "chunkId": "29764c",
+        "hash": "cafac709",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "943": {
+        "chunkId": "29764c",
+        "hash": "7561a2bd",
+        "encoded": ".app-footer%20a:hover%20%7B",
+        "prevChunkIds": []
+      },
+      "944": {
+        "chunkId": "29764c",
+        "hash": "fff74494",
+        "encoded": "opacity:%200.8;",
+        "prevChunkIds": []
+      },
+      "945": {
+        "chunkId": "29764c",
+        "hash": "ace06c33",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "947": {
+        "chunkId": "29764c",
+        "hash": "e16967f7",
+        "encoded": "/*%20Responsive%20*/",
+        "prevChunkIds": []
+      },
+      "948": {
+        "chunkId": "29764c",
+        "hash": "84ef1410",
+        "encoded": "@media%20(max-width:%20768px)%20%7B",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 984
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "backend-java\\src\\main\\java\\com\\talentfor\\resumeparser\\service\\ExcelExporterService.java": {
+    "filename": "ExcelExporterService.java",
+    "path": "backend-java\\src\\main\\java\\com\\talentfor\\resumeparser\\service\\ExcelExporterService.java",
+    "version": "1.2",
+    "contextFile": "35ca7e80-context.json",
+    "chunks": {
+      "9a5b8d": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142784,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0fce6421"
+        },
+        "hash": "3ca49707",
+        "messageId": "system_ed319f20-9bc9-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 6:03:04 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "10daae": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142784,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0fce6421"
+        },
+        "hash": "271ef342",
+        "messageId": "system_ed319f20-9bc9-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 6:03:04 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "25": {
+        "chunkId": "9a5b8d",
+        "hash": "3059e2b8",
+        "encoded": "private%20static%20final%20int%5B%5D%20COLUMN_WIDTHS%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9a5b8d",
+        "hash": "35d5e0f8",
+        "encoded": "25,%2030,%2018,%2015,%2050,%2060,%2035,%2035,%2060,%2030,%2020",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9a5b8d",
+        "hash": "a3b06819",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "10daae",
+        "hash": "d8d54949",
+        "encoded": "//%20Education%20-%20handle%20multi-line%20properly",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "10daae",
+        "hash": "021eb328",
+        "encoded": "String%20education%20=%20resume.getEducation()%20!=%20null%20?",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "10daae",
+        "hash": "93217020",
+        "encoded": "resume.getEducation().replace(%22%20%7C%20%22,%20%22%5Cn%22)%20:%20%22%22;",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "10daae",
+        "hash": "3ec2f021",
+        "encoded": "Cell%20eduCell%20=%20createCell(row,%20colNum++,%20education);",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "10daae",
+        "hash": "98b695a9",
+        "encoded": "CellStyle%20eduStyle%20=%20sheet.getWorkbook().createCellStyle();",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "10daae",
+        "hash": "38e08c65",
+        "encoded": "eduStyle.setWrapText(true);",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "10daae",
+        "hash": "c4772c50",
+        "encoded": "eduStyle.setVerticalAlignment(VerticalAlignment.TOP);",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "10daae",
+        "hash": "5b71abac",
+        "encoded": "eduCell.setCellStyle(eduStyle);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "frontend\\app.js": {
+    "filename": "app.js",
+    "path": "frontend\\app.js",
+    "version": "1.2",
+    "contextFile": "54f13684-context.json",
+    "chunks": {
+      "3420c2": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787141742,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "62a8c9cc"
+        },
+        "hash": "8117cb54",
+        "messageId": "system_b9f38450-9bc6-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:45:42 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "1ce7e3": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142357,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "7c6853f7",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:57 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "6c321f": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142357,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "0327badd",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:55:57 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "d620d0": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142377,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "58bf8c40",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:56:17 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      },
+      "21e7c9": {
+        "user": "Aditya Pandey",
+        "model": "gpt-4.1",
+        "timestamp": 1787142377,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.1.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "137598b4"
+        },
+        "hash": "55209c4d",
+        "messageId": "system_ecdf07c0-9bc8-11f1-a83e-cd0cafbff551",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Aditya Pandey\n- **model**: gpt-4.1\n- **timestamp**: 8/19/2026, 5:56:17 PM\n- **source**: agent\n- **type**: agentEditTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3420c2",
+        "hash": "ba001871",
+        "encoded": "//%20Configuration",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "3420c2",
+        "hash": "e64c2aed",
+        "encoded": "const%20API_BASE_URL%20=%20'http://localhost:8080/api/resume-parser';",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "1ce7e3",
+        "hash": "70e7a576",
+        "encoded": "//%20Update%20Candidates%20View",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "1ce7e3",
+        "hash": "37331b2c",
+        "encoded": "function%20updateCandidatesView(resumes%20=%20null)%20%7B",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "1ce7e3",
+        "hash": "e4213e0e",
+        "encoded": "const%20grid%20=%20document.getElementById('candidatesGrid');",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "1ce7e3",
+        "hash": "3b07b146",
+        "encoded": "const%20displayResumes%20=%20resumes%20%7C%7C%20parsedResumes;",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "1ce7e3",
+        "hash": "d460ec6b",
+        "encoded": "if%20(displayResumes.length%20===%200)%20%7B",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "1ce7e3",
+        "hash": "70ef797a",
+        "encoded": "grid.innerHTML%20=%20%60",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "1ce7e3",
+        "hash": "0bc92f6d",
+        "encoded": "%3Cdiv%20class=%22no-data%22%3E",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "1ce7e3",
+        "hash": "555a382a",
+        "encoded": "%3Ci%20class=%22fas%20fa-user-friends%22%3E%3C/i%3E",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "1ce7e3",
+        "hash": "1df0ceab",
+        "encoded": "%3Ch3%3ENo%20Candidates%20Yet%3C/h3%3E",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "1ce7e3",
+        "hash": "16d7c937",
+        "encoded": "%3Cp%3EUpload%20and%20parse%20resumes%20to%20see%20candidates%20here%3C/p%3E",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "1ce7e3",
+        "hash": "cccd90ec",
+        "encoded": "%3C/div%3E",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "1ce7e3",
+        "hash": "de8a54a2",
+        "encoded": "%60;",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "1ce7e3",
+        "hash": "0bd450bc",
+        "encoded": "return;",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "1ce7e3",
+        "hash": "e196358d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "21e7c9",
+        "hash": "7bc1b8ab",
+        "encoded": "grid.innerHTML%20=%20displayResumes.map((resume,%20index)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "6c321f",
+        "hash": "8a8550c9",
+        "encoded": "function%20applyFilters()%20%7B",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "6c321f",
+        "hash": "85adccd6",
+        "encoded": "const%20expFilter%20=%20document.getElementById('expFilter').value;",
+        "prevChunkIds": []
+      },
+      "388": {
+        "chunkId": "6c321f",
+        "hash": "e95b0d5e",
+        "encoded": "const%20skillFilter%20=%20document.getElementById('skillFilter').value;",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "6c321f",
+        "hash": "56c6cdcd",
+        "encoded": "const%20sortBy%20=%20document.getElementById('sortBy').value;",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "6c321f",
+        "hash": "6d54d918",
+        "encoded": "let%20filtered%20=%20%5B...parsedResumes%5D;",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "6c321f",
+        "hash": "3d7bae12",
+        "encoded": "//%20Filter%20by%20experience",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "6c321f",
+        "hash": "9a23bdd8",
+        "encoded": "if%20(expFilter)%20%7B",
+        "prevChunkIds": []
+      },
+      "395": {
+        "chunkId": "6c321f",
+        "hash": "a4c98bd1",
+        "encoded": "filtered%20=%20filtered.filter(resume%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "6c321f",
+        "hash": "6dbace2a",
+        "encoded": "if%20(!resume.experienceYears)%20return%20false;",
+        "prevChunkIds": []
+      },
+      "397": {
+        "chunkId": "6c321f",
+        "hash": "c2793742",
+        "encoded": "const%20exp%20=%20parseInt(resume.experienceYears.match(/%5Cd+/)?.%5B0%5D%20%7C%7C%200);",
+        "prevChunkIds": []
+      },
+      "399": {
+        "chunkId": "6c321f",
+        "hash": "e4712635",
+        "encoded": "if%20(expFilter%20===%20'0-2')%20return%20exp%20%3E=%200%20&&%20exp%20%3C=%202;",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "6c321f",
+        "hash": "c1d2b7fb",
+        "encoded": "if%20(expFilter%20===%20'3-5')%20return%20exp%20%3E=%203%20&&%20exp%20%3C=%205;",
+        "prevChunkIds": []
+      },
+      "401": {
+        "chunkId": "6c321f",
+        "hash": "2f7d4f79",
+        "encoded": "if%20(expFilter%20===%20'6-10')%20return%20exp%20%3E=%206%20&&%20exp%20%3C=%2010;",
+        "prevChunkIds": []
+      },
+      "402": {
+        "chunkId": "6c321f",
+        "hash": "0311d115",
+        "encoded": "if%20(expFilter%20===%20'10+')%20return%20exp%20%3E%2010;",
+        "prevChunkIds": []
+      },
+      "403": {
+        "chunkId": "6c321f",
+        "hash": "932a2f57",
+        "encoded": "return%20true;",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "6c321f",
+        "hash": "8afa7fbe",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "6c321f",
+        "hash": "796e78e5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "407": {
+        "chunkId": "6c321f",
+        "hash": "c913e0b7",
+        "encoded": "//%20Filter%20by%20skill",
+        "prevChunkIds": []
+      },
+      "408": {
+        "chunkId": "6c321f",
+        "hash": "8b51fb45",
+        "encoded": "if%20(skillFilter)%20%7B",
+        "prevChunkIds": []
+      },
+      "409": {
+        "chunkId": "6c321f",
+        "hash": "62f72c74",
+        "encoded": "filtered%20=%20filtered.filter(resume%20=%3E",
+        "prevChunkIds": []
+      },
+      "410": {
+        "chunkId": "6c321f",
+        "hash": "d444654d",
+        "encoded": "resume.skills%20&&%20resume.skills.includes(skillFilter)",
+        "prevChunkIds": []
+      },
+      "411": {
+        "chunkId": "6c321f",
+        "hash": "8701b636",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "412": {
+        "chunkId": "6c321f",
+        "hash": "73772182",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "414": {
+        "chunkId": "6c321f",
+        "hash": "766c2eab",
+        "encoded": "//%20Sort",
+        "prevChunkIds": []
+      },
+      "415": {
+        "chunkId": "6c321f",
+        "hash": "2e38097f",
+        "encoded": "if%20(sortBy%20===%20'name')%20%7B",
+        "prevChunkIds": []
+      },
+      "416": {
+        "chunkId": "6c321f",
+        "hash": "ba862304",
+        "encoded": "filtered.sort((a,%20b)%20=%3E%20(a.name%20%7C%7C%20'').localeCompare(b.name%20%7C%7C%20''));",
+        "prevChunkIds": []
+      },
+      "417": {
+        "chunkId": "6c321f",
+        "hash": "b7fa4ed9",
+        "encoded": "%7D%20else%20if%20(sortBy%20===%20'experience')%20%7B",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "6c321f",
+        "hash": "08b90495",
+        "encoded": "filtered.sort((a,%20b)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "419": {
+        "chunkId": "6c321f",
+        "hash": "da1e1335",
+        "encoded": "const%20expA%20=%20parseInt(a.experienceYears?.match(/%5Cd+/)?.%5B0%5D%20%7C%7C%200);",
+        "prevChunkIds": []
+      },
+      "420": {
+        "chunkId": "6c321f",
+        "hash": "d84feba3",
+        "encoded": "const%20expB%20=%20parseInt(b.experienceYears?.match(/%5Cd+/)?.%5B0%5D%20%7C%7C%200);",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "6c321f",
+        "hash": "3e49fef9",
+        "encoded": "return%20expB%20-%20expA;",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "6c321f",
+        "hash": "9f78c237",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "423": {
+        "chunkId": "6c321f",
+        "hash": "3b64e6f0",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "424": {
+        "chunkId": "6c321f",
+        "hash": "18d95d91",
+        "encoded": "filtered.sort((a,%20b)%20=%3E%20new%20Date(b.parsedDate%20%7C%7C%200)%20-%20new%20Date(a.parsedDate%20%7C%7C%200));",
+        "prevChunkIds": []
+      },
+      "425": {
+        "chunkId": "6c321f",
+        "hash": "5d832fb4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "6c321f",
+        "hash": "8298f0fd",
+        "encoded": "updateCandidatesView(filtered);",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "6c321f",
+        "hash": "f666894a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "d620d0",
+        "hash": "0cf29b8e",
+        "encoded": "function%20handleSearch(e)%20%7B",
+        "prevChunkIds": []
+      },
+      "431": {
+        "chunkId": "d620d0",
+        "hash": "8fa34ff7",
+        "encoded": "const%20query%20=%20e.target.value.toLowerCase();",
+        "prevChunkIds": []
+      },
+      "433": {
+        "chunkId": "d620d0",
+        "hash": "1be13d58",
+        "encoded": "if%20(!query)%20%7B",
+        "prevChunkIds": []
+      },
+      "434": {
+        "chunkId": "d620d0",
+        "hash": "e297f604",
+        "encoded": "applyFilters();",
+        "prevChunkIds": []
+      },
+      "435": {
+        "chunkId": "d620d0",
+        "hash": "e457da76",
+        "encoded": "return;",
+        "prevChunkIds": []
+      },
+      "436": {
+        "chunkId": "d620d0",
+        "hash": "d8c51278",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "438": {
+        "chunkId": "d620d0",
+        "hash": "81ca059d",
+        "encoded": "const%20filtered%20=%20parsedResumes.filter(resume%20=%3E",
+        "prevChunkIds": []
+      },
+      "439": {
+        "chunkId": "d620d0",
+        "hash": "3d8f22ab",
+        "encoded": "(resume.name%20%7C%7C%20'').toLowerCase().includes(query)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "440": {
+        "chunkId": "d620d0",
+        "hash": "b1eb9485",
+        "encoded": "(resume.email%20%7C%7C%20'').toLowerCase().includes(query)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "441": {
+        "chunkId": "d620d0",
+        "hash": "0c2f444d",
+        "encoded": "(resume.phone%20%7C%7C%20'').toLowerCase().includes(query)%20%7C%7C",
+        "prevChunkIds": []
+      },
+      "442": {
+        "chunkId": "d620d0",
+        "hash": "dde00260",
+        "encoded": "(resume.skills%20%7C%7C%20%5B%5D).some(skill%20=%3E%20skill.toLowerCase().includes(query))",
+        "prevChunkIds": []
+      },
+      "443": {
+        "chunkId": "d620d0",
+        "hash": "7b453dac",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "445": {
+        "chunkId": "d620d0",
+        "hash": "97e94e22",
+        "encoded": "updateCandidatesView(filtered);",
+        "prevChunkIds": []
+      },
+      "446": {
+        "chunkId": "d620d0",
+        "hash": "dca079a9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 548
+  }
+}
